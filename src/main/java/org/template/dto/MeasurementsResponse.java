@@ -1,10 +1,13 @@
-package org.template;
+package org.template.dto;
 
 import java.util.List;
 
 public class MeasurementsResponse {
 
     private List<MeasurementDTO> measurements;
+
+    public MeasurementsResponse() {
+    }
 
     public MeasurementsResponse(List<MeasurementDTO> measurements) {
         this.measurements = measurements;

@@ -1,4 +1,4 @@
-package org.template;
+package org.template.dto;
 
 public class SensorDTO {
 
